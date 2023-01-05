@@ -6,6 +6,7 @@ from flask_migrate import Migrate
 
 from blueprints.auth import bp as auth_bp
 from blueprints.product import bp as product_bp
+from blueprints.dilipala import bp as dilipala_bp
 
 from models import UserModel
 
@@ -21,7 +22,7 @@ migrate = Migrate(app,db)
 #blueprint:用来模块化
 app.register_blueprint(product_bp)
 app.register_blueprint(auth_bp)
-
+app.register_blueprint(dilipala_bp)
 
 #flask db init：只需要执行一次
 #flask db migrate：将oem模型生成迁移脚本

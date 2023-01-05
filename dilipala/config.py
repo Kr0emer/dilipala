@@ -10,7 +10,7 @@ PORT= 3306
 #连接MySQL的用户名，读者用自己设置的
 USERNAME = "root"
 #连接MySQL的密码，读者用自己的
-PASSWORD = "" 
+PASSWORD = "199902018854LJHk" 
 # MySQL上创建的数据库名称
 DATABASE = "demo"
 
